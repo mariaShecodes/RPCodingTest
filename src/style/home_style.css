@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+.background-home {
+  background-image: url('https://i.pinimg.com/originals/92/a2/20/92a220cea5a4855cbd634d5d229146f9.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vmax;
+  height: 100vh;
+}
+.container-home {
+  text-align: center;
+  padding-top: 2em;
+}
+h1 {
+  font-family: 'Chango', cursive;
+  color: rgb(99, 164, 250);
+  font-size: 3em;
+}
+

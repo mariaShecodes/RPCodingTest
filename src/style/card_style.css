@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.card {
+  font-family: 'Exo 2', sans-serif;
+  background-color: white;
+  border: .5px solid rgb(233, 233, 233);
+  padding: 0;
+  width: 23%;
+  margin: 16px;
+  border-radius: 15px;
+  box-shadow: 6px 14px 12px 2px rgba(163,155,163,1);
+}
+.photo {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+.fact-container {
+  height: 100px;
+}
+.fact {
+  padding: 1em;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
