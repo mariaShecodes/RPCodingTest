@@ -3,18 +3,50 @@
 .background-home {
   background-image: url('https://i.pinimg.com/originals/92/a2/20/92a220cea5a4855cbd634d5d229146f9.jpg');
   background-position: 0 0;
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 100vmax;
-  height: 100vh;
 }
 .container-home {
+  background: rgba(255, 255, 255, 0.9);
   text-align: center;
-  padding-top: 2em;
+  padding: 2em 0 1.5em 0; 
 }
 h1 {
   font-family: 'Chango', cursive;
   color: rgb(99, 164, 250);
-  font-size: 3em;
+  font-size: 2.5em;
 }
-
+@media (min-width: 701px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    align-items: stretch;
+    justify-items: center;
+  }
+}
+.shuffle-button > p {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 8px;
+  background-color: rgb(255, 132, 0);
+  color: #fff;
+  font-family: 'Chango', cursive;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50px;
+}
